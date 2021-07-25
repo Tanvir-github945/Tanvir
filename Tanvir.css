@@ -1,0 +1,460 @@
+*{
+	margin:0px;
+	
+}
+header{
+	overflow: hidden;
+}
+.container{
+    overflow: hidden;
+}
+.container .upperContents{
+	overflow: hidden;
+	font-family: arial black;
+	color: orange;
+	/* margin: auto; */
+	background: #00000029;
+}
+.container .upperContents .phone{
+	display: inline-block;
+	width: 300px;
+	/* margin: auto; */
+	margin-left: 250px;
+}
+.container .upperContents .email{
+	display: inline-block;
+	width: 350px;
+}
+.container .logMenu{
+	
+overflow: hidden;
+	
+border-bottom: 2px solid #00000026;
+}
+.container .logMenu .logo{
+    display: inline-block;
+    float: left;
+    width: 140px;
+    margin-left: 150px;
+    margin-top: 15px;
+    font-family: arial black;
+    color: red;
+}
+.container .logMenu .logo span{
+	color: black;
+}
+.container .logMenu .menuBar{
+    overflow:hidden;
+}
+.container .logMenu .menuBar ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.container .logMenu .menuBar li{
+	float:right;
+	padding: 25px;
+}
+.container .logMenu .menuBar a{
+	padding: 25px;
+	text-decoration:none;
+	font-family:arial black;
+	color:orange;
+	font-size: 19px;
+}
+.container .logMenu .menuBar a:hover{
+    background: #00000073;
+    transition:0.8s;
+}
+/* UnderHeader */
+.belowHeader{
+   overflow: hidden;
+    width:100%;
+	height:400px;
+   background:url("../images/images (14).jpeg");
+  
+   background-position:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:fixed;
+}
+.contanier2{
+	overflow: hidden;
+	width:900px;
+	margin:auto;
+	margin-top: 88px;
+	height: 263px;
+}
+.belowHeader .belowHeaderContents{
+    overflow:hidden;
+    width: 700px;
+    height: 260px;
+    margin-left: 150px;
+    /* display: inline; */
+}
+.belowHeader .belowHeaderContents h1{
+	color: #ff9800;
+	font-family:arial black;
+	padding-bottom:5px;
+	
+}
+.belowHeader .belowHeaderContents p{
+    color: #ffffffd1;
+    font-family: arial black;
+    padding-top: 5px;
+    font-size: 16px;
+}
+.belowHeader .belowHeaderContents ul{
+    
+	padding-right:5px;
+	color:white;
+}
+.belowHeader .belowHeaderContents li {
+    display:inline-block;
+}
+.belowHeader .belowHeaderContents .button{
+	margin-top: 20px;
+}
+.belowHeader .belowHeaderContents .button .btn1{
+	padding-left: 28px;
+	color: #0a0a0a;
+	background: #9e9e9ec7;
+	margin-right: 17px;
+	padding-right: 28px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	font-family: arial black;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.belowHeader .belowHeaderContents .button .btn2{
+	padding-left: 28px;
+	color: #0a0a0a;
+	background: #9e9e9ec7;
+	margin-right: 17px;
+	padding-right: 28px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	font-family: arial black;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.belowHeader .belowHeaderContents .button .btn2:hover{
+	background: white;
+	transition:0.8s;
+}
+.belowHeader .belowHeaderContents .button .btn1:hover{
+	background: white;
+	transition:0.8s;
+}
+/*My skill*/
+.myService{
+	overflow:hidden;
+	width:100%;
+	height:500px;
+	background: #00000014;
+}
+.myService .container3{
+	overflow:hidden;
+	width:900px;
+	margin:auto;
+	margin-top: 120px;
+	height: 300px;
+}
+.myService .Value{
+	position: absolute;
+	left: 540px;
+	top: 530px;
+	font-family: arial black;
+	color: orange;
+	width: 300px;
+	border: 2px solid black;
+	animation-name:border;
+	animation-direction:alternate;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+@keyframes border{
+	from{width:0px;color:red;}
+	to{width:200px;color:aqua;}
+}
+.myService .Value h1{
+	width: 300px;
+}
+.myService .container3 .webDesign{
+	width: 350px;
+	float:left;
+	margin-right: 98px;
+	border: 1px solid black;
+	margin-bottom:30px;
+	background: linear-gradient(aqua,white);
+}
+.myService .container3 .webDesign:hover{
+	transform:translateX(15px);
+	transition:1s;
+	cursor:pointer;
+}
+.myService .container3 .webDesign h2{
+    color:orange;
+    font-family:arial black;
+    font-size:16px;
+    text-align: center;
+    padding-top: 5px;
+}
+.myService .container3 .webDesign p{
+    color:black;
+    padding:10px;
+    font-family:arial black;
+    font-size:13px;
+    padding-bottom: 20px;
+}
+.mySkill{
+ overflow: hidden;
+ width:100%;
+ height: 600px;
+ background:url("../images/images (16).jpeg");
+ background-size:cover;
+ background-attachment:fixed;
+ background-position:center;
+ background-repeat: no-repeat;
+}
+.mySkill .container4{
+	 overflow: hidden;
+	 width: 900px;
+	 height: 700px;
+	 margin: auto;
+	 margin-top: 100px;
+}
+.mySkill .value2{
+	position:absolute;
+	font-family:arial black;
+	width:300px;
+	color: white;
+	border: 2px solid white;
+	animation-name:skillAnime;
+	animation-duration:2s;
+	animation-direction:alternate;
+	animation-iteration-count:infinite;
+	left: 500px;
+	top: 1030px;
+}
+.mySkill .value2 h1{
+	width:300px;
+	
+}
+
+@keyframes skillAnime{
+	from{width:0px;color:red;}
+	to{width:300px;color:aqua;}
+}
+.mySkill .container4 .Html{
+	width:400px;
+	color:aqua;
+	height: 200px;
+	border: 2px solid white;
+	background: #00000061;
+	float:left;
+	margin-right: 46px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+.mySkill .container4 .Html:hover{
+	transform:translateX(15px);
+	transition:1s;
+	cursor:pointer;
+}
+.mySkill .container4 .Html h2{
+   font-family:arial black;
+   text-align:center;
+   color:orange;
+   border:none;
+}
+.mySkill .container4 .Html p{
+  font-family:arial;
+  padding-left:7px;
+  padding-bottom:10px;
+}
+/*our Team*/
+.ourTeam{
+	overflow:hidden;
+	background:#1b1a1a;
+	width: 100%;
+	padding-bottom: 50px;
+}
+.ourTeam .container5{
+	overflow:hidden;
+	width: 970px;
+	margin: auto;
+}
+.ourTeam .heading h1{
+	color:white;
+	font-family:arial;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.ourTeam .heading p{
+	color:orange;
+	font-family:arial;
+	text-align:center;
+	padding-bottom:20px;
+	font-size: 16px;
+}
+
+.ourTeam .members{
+	overflow:hidden;
+	float:left;
+	width: 300px;
+	margin-right:23px;
+}
+.ourTeam .members .memImg{
+	width:300px;
+	
+}
+.ourTeam .members .memImg img{
+	width:100%;
+	border-bottom:5px solid orange;
+	
+}
+.ourTeam .members .memImg2{
+	width: 300px;
+}
+.ourTeam .members .memImg2 img{
+	width:100%;
+	border-bottom: 5px solid orange;
+	height:170px;
+}
+
+.ourTeam .members .memDetails h3{
+	color: #ffffffd6;
+	font-family:arial;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ourTeam .members .memDetails  p{
+	color: #ffffffad;
+	font-family: arial;
+	font-size: 15px;
+	padding-bottom: 15px;
+	/* text-align: justify; */
+	/* word-spacing: -2px; */
+}
+.ourTeam .members .memDetails .tmBtn button{
+	background: #ffeb3be6;
+	padding: 10px;
+	font-family: arial black;
+	border-radius: 10px;
+	cursor:pointer;
+}
+.ourTeam .members .memDetails .tmBtn button:hover{
+   background:#0362ad;
+   color:white;
+   transition:0.8s;
+}
+
+.workTogather{
+	overflow:hidden;
+	background:url("../images/background1.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	width:100%;
+	height:300px;
+}
+
+.workTogather .container6{
+	overflow: hidden;
+    width: 400px;
+    margin: auto;
+    margin-top: 95px;
+}
+
+.workTogather .container6 .article h1{
+	color: #07f5df;
+    font-family: arial black;
+    
+}
+
+.workTogather .container6 .buttonWork button{
+	margin-top: 10px;
+    color: tomato;
+    font-family: arial black;
+    font-size: 20px;
+    background: #08dffb;
+    padding: 7px;
+    border-radius: 15px;
+}
+.workTogather .container6 .buttonWork button:hover{
+background:white;
+transition:0.9s;
+
+}
+
+.ourPrize{
+	overflow:hidden;
+	width:100%;
+	background:black;
+}
+.ourPrize .prizeHeading{
+	width:400px;
+	margin:auto;
+	margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ourPrize .prizeHeading h1{
+	color: #9e9e9efc;
+	font-family: arial black;
+}
+.ourPrize .prizeHeading p{
+	color: #8bc34af2;
+	font-family: arial;
+}
+
+.ourPrize .container7{
+	overflow:hidden;
+	width: 700px;
+	margin:auto;
+}
+.ourPrize .container7 .amount{
+	width:200px;
+	float:left;
+	margin-right:20px;
+}
+
+.ourPrize .container7 .amount h1{
+	color: #ffeb3b;
+	padding-bottom: 13px;
+	font-family: arial black;
+	text-align: center;
+}
+
+.ourPrize .container7 .amount h4{
+	color: white;
+	font-family: arial;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.ourPrize .container7 .amount p{
+	width:200px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 13px;
+	padding-bottom: 25px;
+	font-family: sans-serif;
+	color: #ffffffd1;
+}
+
+.ourPrize .container7 .amount .logoBtn{
+	background: #f5dc05;
+	/* padding-left: 7px; */
+	/* text-align:center; */
+	margin-left: 45px;
+	font-family: arial black;
+	/* padding-left: 7px; */
+	/* padding-right: 7px; */
+	padding: 7px 10px 7px 10px;
+}
+
